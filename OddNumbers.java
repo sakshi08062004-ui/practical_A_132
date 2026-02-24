@@ -1,29 +1,24 @@
+import java.util.*;
+
 public class OddNumbers {
     public static void main(String[] args) {
 
-        int min = 101;
-        int max = 0;
-        int sum = 0;
+        ArrayList<Integer> list = new ArrayList<>();
 
-        System.out.println("Odd numbers between 1 to 100:");
-
-        for (int i = 1; i <= 100; i++) {
-            if (i % 2 != 0) {
-                System.out.print(i + " ");
-                sum += i;
-
-                if (i < min) {
-                    min = i;
-                }
-
-                if (i > max) {
-                    max = i;
-                }
-            }
+        for(int i=1;i<=100;i++){
+            if(i%2!=0)
+                list.add(i);
         }
 
-        System.out.println("\n\nMinimum Odd Number: " + min);
-        System.out.println("Maximum Odd Number: " + max);
-        System.out.println("Total Sum of Odd Numbers: " + sum);
+        System.out.println("Odd Numbers: " + list);
+
+        System.out.println("Minimum = " + list.get(0));
+        System.out.println("Maximum = " + list.get(list.size()-1));
+
+        int sum=0;
+        for(int n:list)
+            sum+=n;
+
+        System.out.println("Sum = " + sum);
     }
 }
