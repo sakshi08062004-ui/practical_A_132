@@ -17,7 +17,7 @@
 ### University : utu
 
 ![  University Logo] <img width="240" height="135" alt="image" src="https://github.com/user-attachments/assets/4caa4a7a-1717-4aab-9a31-6183839b5fc8" />
-<img width="240" height="135" alt="image" src="https://github.com/user-attachments/assets/4caa4a7a-1717-4aab-9a31-6183839b5fc8" />
+
 
 #### Department : SRIMCA
 
