@@ -12,7 +12,8 @@
 ##  Logos
 
 
-![University Logo](Image/1.png)
+![University Logo]<img width="200" height="180" alt="1 (2)" src="https://github.com/user-attachments/assets/46bfb999-5538-4507-b68b-30f57f83c2ef" />
+
 ### University : utu
 
 ![University Logo](Image/image.png)
